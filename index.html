@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITS FrontEnd Intern Test_Nadiya Rakhimberdina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,900;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/5bd2e9cf2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <a class="header__content-logo" href="#">
+                        <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96"
+                            viewBox="0 0 728.105 637.017">
+                            <defs>
+                                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                    gradientUnits="objectBoundingBox">
+                                    <stop offset="0" stop-color="#bf4cfc" />
+                                    <stop offset="1" stop-color="#386dd1" />
+                                </linearGradient>
+                                <linearGradient id="linear-gradient-2" x1="0.033" y1="0.198" x2="0.741" y2="0.557"
+                                    gradientUnits="objectBoundingBox">
+                                    <stop offset="0" stop-color="#803ddd" />
+                                    <stop offset="1" stop-color="#4e81d3" />
+                                </linearGradient>
+                                <linearGradient id="linear-gradient-3" x2="1.026" y2="0.424"
+                                    gradientUnits="objectBoundingBox">
+                                    <stop offset="0" stop-color="#3899fa" />
+                                    <stop offset="1" stop-color="#6e0d9a" />
+                                </linearGradient>
+
+                            </defs>
+                            <g id="Triangle" transform="translate(24.051 24.054)" opacity="1">
+                                <path id="Top" d="M643.793,0,36.209.015,0,62.7l533.8.172L339.986,400.8l36.209,62.7Z"
+                                    transform="translate(0.014 0)" fill="url(#linear-gradient)" />
+                                <path id="Right"
+                                    d="M542.949,0l-267.6,463.5L80.152,125.413l-73.279-.455L275.365,588.9,579.141,62.7Z"
+                                    transform="translate(100.859 0)" fill="url(#linear-gradient-2)" />
+                                <path id="Left"
+                                    d="M303.807,530.2l72.417.016L107.732,66.275l390.223.423L533.819,4.187,0,4Z"
+                                    transform="translate(0 58.694)" fill="url(#linear-gradient-3)" />
+
+                            </g>
+                        </svg>
+
+                    </a>
+                    <a class="header__content-text" href="#">penrose</a>
+                </div>
+                <nav class="nav">
+                    <div class="header__btn-menu">
+                        <span class="bars"></span>
+                    </div>
+                    <ul class="menu">
+                        <li class="menu-item"><a class="menu-link menu-home" href="#">Home</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#">New Collections</a></li>
+                        <li class="menu-item"><a onclick="myFunction()" class="menu-link menu-store" href="#">Store</a>
+                            <ul id="dropDown" class="sub__menu">
+                                <li class="sub__menu-item"><a class="sub__menu-link" href="#">Women</a></li>
+                                <li class="sub__menu-item"><a class="sub__menu-link" href="#">Men</a></li>
+                                <li class="sub__menu-item"><a class="sub__menu-link" href="#">Kids</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a class="menu-link" href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-news">
+        <div class="container">
+            <div class="news">
+                <div class="news__poster">
+                    <object type="image/svg+xml" data="img/Title.svg"></object>
+                </div>
+
+                <div class="news__slider">
+                    <div class="news__slider-inner">
+                        <div class="news__slider-item">
+                            <div class="news__slider-text">Blandit et augue nulla suscipit ut ut quis ad feugiat ut
+                                luptatum, consequat, lobortis, aliquip dolore, iriure veniam te dolor aliquip.</div>
+                            <div class="news__slider-author">— Emerson Hawkins</div>
+                        </div>
+                        <div class="news__slider-item">
+                            <div class="news__slider-text">Hendrerit aliquam odio accumsan ea commodo augue dolore zzril
+                                commodo facilisis in tation nulla iriure dolore feugait facilisis praesent.</div>
+                            <div class="news__slider-author">— Terry Matthews</div>
+                        </div>
+                        <div class="news__slider-item">
+                            <div class="news__slider-text">Consequat aliquip lobortis consectetuer adipiscing volutpat
+                                ad
+                                autem veniam hendrerit consequat te quis suscipit dolor consequat in. Duis ex, diam
+                                hendrerit.</div>
+                            <div class="news__slider-author">— Reggie Henry</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="videoplayer">
+        <div class="container">
+            <a href="https://www.youtube.com/watch?v=uoYiKk-71Oc&ab_channel=4K" target="_blank">
+                <div class="player-link"></div>
+            </a>
+        </div>
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
